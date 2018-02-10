@@ -1,0 +1,19 @@
+// Basic reset
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  /* force box sizing inheritance (in this case from body where it is declared) */
+  box-sizing: inherit;
+}
+
+html {
+  /* divide font size you want by 16 */
+  // This defines what one rem is
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
